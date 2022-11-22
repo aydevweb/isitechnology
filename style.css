@@ -1,0 +1,210 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: arial;
+    background-color: #F5F7FC;
+    background-image: url("logo1.jpg");
+    background-repeat: no-repeat;
+    background-position: 11cm;
+
+}
+nav{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid white;
+    background-color:rgb(204, 232, 236);
+}
+nav h1{
+    color:#473F57;
+    font-family: arial;
+    font-size: 40px;
+
+}
+.onglets{
+    margin-left: 300px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color:black;
+    margin-right: 10px;
+    border-bottom: 1px solid rgb(53, 201, 238);
+    padding-bottom:5px ;
+    font-family: arial;
+    font-size: 20px;
+    
+    
+
+}
+input{
+    border: 1px solid Green;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+button{
+    font-size: 19px;
+    background-color:white;
+    border: 0px;
+    border-radius: 5px;
+    color:black;
+    transition: transform 0,10s ease;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+button::after,.button::before{
+    content:"";
+    opacity: 0,3;
+    background: rgb(235, 230, 230);
+    width: 100%;
+    height: 100%;
+    left:0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0,3s ease;
+
+}
+button:hover{
+    transform: translate(-12px , 12px);
+
+}
+button:hover::after{
+    transform: translate(6px,6px);
+}
+button:hover::before{
+    transform: translate(9px,9px);
+}
+
+.btn button{
+        font-size: 19px;
+        background-color:black;
+        border-radius: 5px;
+        color:white;
+        transition: transform 0,10s ease;
+        cursor: pointer;
+    }
+    button::after,.button::before{
+        content:"";
+        opacity: 0,3;
+        background: rgb(235, 230, 230);
+        width: 100%;
+        height: 100%;
+        left:0;
+        bottom: 0;
+        z-index: -1;
+        transition: transform 0,3s ease;
+    
+    }
+    button:hover{
+        transform: translate(-12px , 12px);
+    
+    }
+    button:hover::after{
+        transform: translate(6px,6px);
+    }
+    button:hover::before{
+        transform: translate(9px,9px);
+    }
+
+
+.para h1{
+    font-family: arial;
+    font-size: 40px;
+    margin-left:100px ;
+    color: #55ACE7;
+    
+}
+.para p{
+    padding: 10px;
+    margin:0;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.para a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    color:green;
+    font-size: 40px;
+}
+nav .onglets a:hover{
+    color:rgb(51, 240, 240);
+}
+.data{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(87, 163, 87);
+    border-radius:10px;
+    margin-left: 1000px;
+    color: aliceblue;
+}
+.data input{
+    margin-left: 65px;
+    border:2px solid rgb(55, 231, 122);
+    border-radius: 5px;
+}
+.data button{
+    margin-left:40%;
+    background-color: #e6ffee;
+    
+}
+
+.data p{
+    margin-left: 90px;
+    font-family: Arial;
+    
+}
+p{
+    font-family: Arial;
+    font-size: 27px;
+    margin-left: 280px;
+}
+
+.buttom{
+    border-top: 2px solid black;
+    margin-top:290px;
+    background-color: black;
+    color:#e6ffee;
+}
+.Services{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Services .service {
+    margin-right:240px;
+    
+}
+.Services .service a{
+    font-family: Arial;
+    text-decoration: none;
+    color: white;
+    
+}
+.Services .service a:hover{
+    border-bottom: 2px solid white;
+
+}
+.btn{
+    margin-left: 280px;
+}
+::placeholder{
+    font-size: 17px;
+}
+.Services .service h1{
+    color:wheat;
+}
+
+nav img {
+    width: 50px;
+    height: 60px;
+}
+
+@media screen and (max-width:680px){
+    nav.onglets{
+        margin-left:0px;
+        margin-bottom: 20px;
+    }
+}

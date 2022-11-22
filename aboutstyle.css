@@ -1,0 +1,58 @@
+
+.desc{
+    border: 2px solid rgb(204, 232, 236);
+    border-radius: 5px;
+    background-color: rgb(204, 232, 236);
+
+}
+.desc h1{
+    padding-left: 40% ;
+    color: #473F57;
+    font-family: cursive;
+}
+.power img{
+    width: 250px;
+    height: 250px;
+    padding-left: 40%;
+    border-radius: 10px;
+}
+.power h2{
+    padding-left: 30%;
+    font-family: cursive;
+    
+}
+.digital img{
+    width: 250px;
+    height: 250px;
+    padding-left: 40%;
+    border-radius: 10px;
+
+}
+.digital h2{
+    padding-left: 30%;
+    font-family: cursive;
+}
+.Trottinette{
+    width: 250px;
+    height: 250px;
+    padding-left: 40%;
+    border-radius: 10px;
+    font-family: cursive;
+    
+}
+
+.Trottinette2 img{
+    width: 250px;
+    height: 250px;
+    font-family: cursive;
+
+}
+
+.balance img{
+    width: 250px;
+    height: 250px;
+    padding-left: 40%;
+    border-radius: 10px;
+    font-family: cursive;
+
+}
